@@ -1,0 +1,90 @@
+.main {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #330033;
+  border-radius: 20px;
+  width: 500px;
+  padding: 50px;
+}
+.container-fluid {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffd0ff;
+}
+.header {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 1px;
+  margin: 10px;
+}
+.shadow {
+  box-shadow: #4b004b 3px 3px 3px 3px;
+  padding: 1px;
+  margin: 10px;
+}
+.textbox {
+  text-align: center;
+  background: transparent;
+  padding: 8px;
+  border-radius: 8px;
+  color: #ffffff;
+  margin: 10px;
+  border-width: 3px;
+  border-color: #ffffff;
+}
+.textbox:focus {
+  background: transparent;
+}
+
+.submitbtn {
+  background-color: #ffd0ff;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 10px;
+  font-weight: bold;
+  color: #330033;
+  border-width: 3px;
+  border-color: #ffd0ff;
+}
+.completebtn {
+  background-color: #ffd0ff;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 10px;
+  color: #330033;
+  border-color: #ffd0ff;
+}
+
+::placeholder {
+  color: #ffffff;
+  font-size: 13px;
+}
+.list {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 2px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-item {
+  text-align: left;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  padding-right: 30px;
+}
+.list-input {
+  margin: 10px;
+}
+html {
+  background-color: #ffd0ff;
+}
